@@ -41,7 +41,7 @@ Continious Development Project with a goal to achieve the best possible hearing 
 >> Here you can see OUT from MAX9814(1-yellow) and PAM8403 IN after resistors(2-aquamarine)
 >>[!image](https://raw.githubusercontent.com/TwilightSaw/Hearing-Aids/refs/heads/main/images/Osciloscope_1.png)
 
-- [!image](https://raw.githubusercontent.com/TwilightSaw/Hearing-Aids/refs/heads/main/images/labview_1.jpg)
+ [!image](https://raw.githubusercontent.com/TwilightSaw/Hearing-Aids/refs/heads/main/images/labview_1.jpg)
 
 > [!image](https://raw.githubusercontent.com/TwilightSaw/Hearing-Aids/refs/heads/main/images/labview_out.jpg)
 
