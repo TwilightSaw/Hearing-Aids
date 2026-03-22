@@ -23,27 +23,29 @@ Continious Development Project with a goal to achieve the best possible hearing 
 
 ## Used tech
 > Osciloscope DHO804
+> 
 > Solder Air Station Yihua 948D
+> 
 > LabView 2026
 
 ## Progress
 1. Battery - MAX9814 - PAM8403 - Magnet Dynamics
 > Circuit - https://raw.githubusercontent.com/TwilightSaw/Hearing-Aids/refs/heads/main/images/circuit_dynamic.jpg
 >> Strong feedback loop due to close in and out sound placement, signal is clear but unstable higher the frequency up to unhearable.
-3. Battery - MAX9814 - PAM8403 - Headphone Driver
+2. Battery - MAX9814 - PAM8403 - Headphone Driver
 > Circuit - https://raw.githubusercontent.com/TwilightSaw/Hearing-Aids/refs/heads/main/images/circuit_headphone.jpg
 >> Feedback loop is almost gone but is still present if out is too close to microphone, signal is clear and amplified but unstable and grainy.
 
 ## Tests and measurements 
 > Osciloscope was set to 1.00 ms, 50 mV and AC measurements.
 >> Here you can see OUT from MAX9814(1-yellow) and PAM8403 IN after resistors(2-aquamarine)
->> https://raw.githubusercontent.com/TwilightSaw/Hearing-Aids/refs/heads/main/images/Osciloscope_1.png
+>>[!image](https://raw.githubusercontent.com/TwilightSaw/Hearing-Aids/refs/heads/main/images/Osciloscope_1.png)
 
-> https://raw.githubusercontent.com/TwilightSaw/Hearing-Aids/refs/heads/main/images/labview_1.jpg
+> [!image](https://raw.githubusercontent.com/TwilightSaw/Hearing-Aids/refs/heads/main/images/labview_1.jpg)
 
-> https://raw.githubusercontent.com/TwilightSaw/Hearing-Aids/refs/heads/main/images/labview_out.jpg
+> [!image](https://raw.githubusercontent.com/TwilightSaw/Hearing-Aids/refs/heads/main/images/labview_out.jpg)
 
-> https://raw.githubusercontent.com/TwilightSaw/Hearing-Aids/refs/heads/main/images/labview_gain.jpg
+> [!image](https://raw.githubusercontent.com/TwilightSaw/Hearing-Aids/refs/heads/main/images/labview_gain.jpg)
 
 LabView files connect test.vi and mV.vi test osciloscope connection and circuit measurements accordingly.
 
